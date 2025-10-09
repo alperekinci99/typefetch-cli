@@ -1,0 +1,30 @@
+{
+  "name": "typefetch-cli",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Generate TypeScript types from live API responses.",
+  "bin": {
+    "typefetch-cli": "./dist/cli.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "tsc -w",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "quicktype-core": "^23.2.6",
+    "undici": "^6.22.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.18.9",
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
