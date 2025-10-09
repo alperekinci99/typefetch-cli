@@ -51,4 +51,4 @@ npm version patch
 npm publish --access public
 \`\`\`
 
-MIT © [Alper Ekinci](https://github.com/alperekinci)
+MIT © [Alper Ekinci](https://github.com/alperekinci99)
