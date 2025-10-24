@@ -1,6 +1,6 @@
 {
   "name": "typefetch-cli",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "type": "module",
   "description": "Generate TypeScript types from live API responses.",
   "bin": {
@@ -16,6 +16,7 @@
   },
   "dependencies": {
     "commander": "^12.1.0",
+    "inquirer": "^12.10.0",
     "quicktype-core": "^23.2.6",
     "undici": "^6.22.0"
   },
