@@ -15,23 +15,17 @@ Perfect for frontend developers who want instant, schema-free typing.
 ---
 
 ## 🚀 Installation
-\`\`\`bash
 npm i -D typefetch-cli
-\`\`\`
 
 ## 🧰 Usage
-\`\`\`bash
 npx typefetch-cli fetch \
   --url "https://jsonplaceholder.typicode.com/posts/1" \
   --name Post \
   --out src/types/generated \
   --snapshot-dir .typefetch-cli/snapshots
-\`\`\`
 
 ## Interactive mode Usage
-\`\`\`bash
 npx typefetch-cli fetch --interactive
-\`\`\`
 
 ## Options
 | Option | Description | Default |
